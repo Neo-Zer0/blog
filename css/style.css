@@ -2,3 +2,34 @@
     margin: 0;
     padding: 0;
 }
+
+header {
+    background-color: aqua;
+    width: 100vw;
+    height: 20vh;
+}
+
+nav {
+    width: 60vw;
+    height: 10vh;
+    margin: auto;
+    background-color: white;
+}
+
+nav div{
+    transition: 0.4s;
+}
+
+nav div:nth-child(even){
+    background-color: rgb(231, 172, 95);
+}
+
+nav div:nth-child(odd){
+    background-color: rgb(179, 117, 9);
+}
+
+nav div:hover{
+    transform: scale(1.5);
+    transition: 0.4s;
+}
+

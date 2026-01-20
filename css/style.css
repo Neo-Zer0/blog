@@ -13,6 +13,12 @@ header {
 }
 
 
+/* TEXT */
+h1 {
+    margin: auto;
+    font-size: 9em;
+}
+
 /* --- NAV --- */
 nav {
     width: 98vw;
@@ -20,6 +26,7 @@ nav {
 
     margin: auto;
     margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
 nav p{
@@ -49,12 +56,22 @@ nav div:last-of-type{
     border-bottom-right-radius: 10px;
 }
 
-/* TEXT */
-h1 {
+/* --- MAIN --- */
+main{
+    width: 70vw;
+    height: 180vh;
+    background-color: antiquewhite;
     margin: auto;
-    font-size: 9em;
+    margin-top: 5vh;
+
+    /* border: solid black 10px; */
+    box-shadow: 40px 0 0 blue, -40px 0 0 red;
 }
 
+/* --- FOOTER --- */
+footer {
+    height: 15vh;
+}
 
 /* COLUMNES */
 /* Contenidor */
